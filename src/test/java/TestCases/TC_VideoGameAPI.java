@@ -34,7 +34,7 @@ public class TC_VideoGameAPI {
     public void test_postCreateNewVideoGame() {
 
         HashMap data = new HashMap();
-        data.put("id", "101");
+        data.put("id", "105");
         data.put("name", "spider man");
         data.put("releaseDate", "2020-09-04T07:45:49.235Z");
         data.put("reviewScore", "5");
@@ -65,11 +65,11 @@ public class TC_VideoGameAPI {
 
         given()
                 .when()
-                .get("http://video-game-db.eu-west-2.elasticbeanstalk.com/app/videogames/101")
+                .get("http://video-game-db.eu-west-2.elasticbeanstalk.com/app/videogames/105")
                 .then()
                 .statusCode(200)
                 .log().body()
-                .body("videoGame.id", equalTo("101"))
+                .body("videoGame.id", equalTo("105"))
                 .body("videoGame.name", equalTo("spider man"));
 
     }
@@ -78,7 +78,7 @@ public class TC_VideoGameAPI {
 
 
         HashMap data = new HashMap();
-        data.put("id","100");
+        data.put("id","105");
         data.put("name","Pacman");
         data.put("releaseDate","2020-09-04T07:45:49.235Z");
         data.put("reviewScore","4");
@@ -94,7 +94,7 @@ public class TC_VideoGameAPI {
                 .then()
                 .statusCode(200)
                 .log().body()
-                .body("videoGame.id",equalTo("100"))
+                .body("videoGame.id",equalTo("105"))
                 .body("videoGame.name",equalTo("Pacman"));
 
 
@@ -109,7 +109,7 @@ public class TC_VideoGameAPI {
                 given()
 
                         .when()
-                        .delete("http://video-game-db.eu-west-2.elasticbeanstalk.com/app/videogames/100")
+                        .delete("http://video-game-db.eu-west-2.elasticbeanstalk.com/app/videogames/105")
                         .then()
                         .statusCode(200)
                         .log().body()
