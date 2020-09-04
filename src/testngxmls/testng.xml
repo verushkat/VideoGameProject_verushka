@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="My Sysco Shopping - Web" >
+    <test name="Checkout Tests">
+        <classes>
+
+            <class name="TestCases.TC_VideoGameAPI"/>
+        </classes>
+    </test>
+</suite>
