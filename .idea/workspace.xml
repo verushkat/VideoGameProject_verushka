@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f31d5259-e082-4b28-a574-d41e6a064a02" name="Default Changelist" comment="" />
+    <list default="true" id="f31d5259-e082-4b28-a574-d41e6a064a02" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/VideoGameProject-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCases/TC_VideoGameAPI.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +23,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,11 +34,14 @@
     </option>
   </component>
   <component name="ProjectId" id="1h2T0csKqojQGfjL9GFQ92SuJcd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -165,11 +179,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.E:/VideoGameProject/testng1.xml" />
       <item itemvalue="TestNG.TC_VideoGameAPI.test_getAllVideoGames1" />
       <item itemvalue="TestNG.TC_VideoGameAPI" />
       <item itemvalue="TestNG.TC_VideoGameAPI.test_getAllVideoGames" />
       <item itemvalue="TestNG.E:/VideoGameProject/src/testngxmls/testng.xml" />
-      <item itemvalue="TestNG.E:/VideoGameProject/testng1.xml" />
       <item itemvalue="TestNG.TC_VideoGameAPI.test_DeleteVideoGame" />
     </list>
     <recent_temporary>
@@ -192,11 +206,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599207964324</updated>
-      <workItem from="1599207967779" duration="17714000" />
+      <workItem from="1599207967779" duration="23745000" />
+      <workItem from="1599312063841" duration="66000" />
+      <workItem from="1599563154344" duration="2516000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
